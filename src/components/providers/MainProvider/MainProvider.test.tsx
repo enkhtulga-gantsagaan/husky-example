@@ -6,7 +6,7 @@ describe('MainProvider', () => {
   it('should render the children components', () => {
     render(
       <MainProvider pageProps={{}}>
-        <h1>MainLayout children</h1>
+        <h1>MainLayout1 children</h1>
       </MainProvider>
     );
 
