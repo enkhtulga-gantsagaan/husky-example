@@ -11,6 +11,6 @@ describe('MainProvider', () => {
     );
 
     // Assert
-    screen.getByRole('heading', { name: /11MainLayout children/i });
+    screen.getByRole('heading', { name: /MainLayout children/i });
   });
 });
