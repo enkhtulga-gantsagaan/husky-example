@@ -3,7 +3,7 @@ import { render, screen } from '@/tests/test-utils';
 import { MainProvider } from '.';
 
 describe('MainProvider', () => {
-  it('should render the children components1', () => {
+  it('should render the children components', () => {
     render(
       <MainProvider pageProps={{}}>
         <h1>MainLayout children</h1>
@@ -11,6 +11,6 @@ describe('MainProvider', () => {
     );
 
     // Assert
-    screen.getByRole('heading', { name: /MainLayout children/i });
+    screen.getByRole('heading', { name: /11MainLayout children/i });
   });
 });
